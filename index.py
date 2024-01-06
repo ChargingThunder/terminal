@@ -12,7 +12,7 @@ guests_csv_path = os.path.join(script_dir, 'guests.csv')
 class SecurityTerminal(QMainWindow):
     def __init__(self):
         super().__init__()
-
+        self.resize(1200,600)
         self.setWindowTitle("Терминал охранника")
         self.tab_widget = QTabWidget()
 
